@@ -1,0 +1,98 @@
+
+import {
+  FaReact,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaGithub,
+  FaDocker,
+  FaPython,
+  FaFigma,
+  FaCode,
+} from "react-icons/fa";
+
+
+
+export  const icons = [
+  {
+    icon: <FaReact />,
+    top: "10%",
+    left: "5%",
+    size: 60,
+    color: "#61DBFB",
+    duration: 6,
+  },
+  {
+    icon: <FaNodeJs />,
+    top: "20%",
+    left: "70%",
+    size: 70,
+    color: "#7ED957",
+    duration: 5,
+  },
+  {
+    icon: <FaHtml5 />,
+    top: "70%",
+    left: "30%",
+    size: 60,
+    color: "#FF5733",
+    duration: 7,
+  },
+  {
+    icon: <FaCss3Alt />,
+    top: "80%",
+    left: "60%",
+    size: 60,
+    color: "#2965F1",
+    duration: 6,
+  },
+  {
+    icon: <FaJs />,
+    top: "50%",
+    left: "50%",
+    size: 70,
+    color: "#F7DF1E",
+    duration: 6,
+  },
+  {
+    icon: <FaGithub />,
+    top: "30%",
+    left: "40%",
+    size: 50,
+    color: "#9CA3AF",
+    duration: 8,
+  },
+  {
+    icon: <FaDocker />,
+    top: "60%",
+    left: "15%",
+    size: 60,
+    color: "#2396ED",
+    duration: 7,
+  },
+  {
+    icon: <FaPython />,
+    top: "40%",
+    left: "80%",
+    size: 70,
+    color: "#FFD43B",
+    duration: 6,
+  },
+  {
+    icon: <FaFigma />,
+    top: "15%",
+    left: "50%",
+    size: 60,
+    color: "#F24E1E",
+    duration: 5,
+  },
+  {
+    icon: <FaCode />,
+    top: "85%",
+    left: "20%",
+    size: 50,
+    color: "#A855F7",
+    duration: 6,
+  },
+];
