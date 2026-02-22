@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../assets/logo/rk.jpg";
+import { FaCode } from "react-icons/fa";
+// import logo from "../../../assets/logo/rk.jpg";
+import cv from "../../../assets//CV/Rohullah Rahimi_CV.pdf";
 
 function Navbar() {
   const [Dropdown, setDropdown] = useState(false);
@@ -22,11 +24,7 @@ function Navbar() {
       <div className=" container mx-auto  fixed top-4   flex justify-between items-center border border-slate-700 h-16  w-[92%] md:w[92%] px-3 sm:px-4 shadow-inner shadow-slate-700 rounded-full bg-black/70  z-50">
         <div className="">
           <Link to="/">
-            <img
-              className="w-12  h-12  border border-gray-700  rounded-full"
-              src={logo}
-              alt="Logo"
-            />
+           <FaCode  className="text-white text-2xl"/>
           </Link>
         </div>
 
@@ -54,11 +52,7 @@ function Navbar() {
         </ul>
 
         <span className="hidden md:flex shadow-inner shadow-slate-700 w-36 h-11 justify-center items-center text-white rounded-full cursor-pointer bg-black">
-          <a
-            href="https://drive.google.com/file/d/17LtV8jUaHO5Af-ipnzsIHCymPiBgML_8/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={cv} target="_blank" rel="noreferrer">
             Download CV
           </a>
         </span>
